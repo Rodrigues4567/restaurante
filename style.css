@@ -1,0 +1,43 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #FEF9EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.1rem 0px;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    padding-right: 5px;
+}
+
+.logo-name {
+    color: #f1a412;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #78776B;
+}
