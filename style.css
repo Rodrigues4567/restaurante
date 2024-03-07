@@ -1,7 +1,23 @@
 
+@font-face {
+    font-family: 'font-semibold';
+    src: url(fonts/K2D/K2D-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'font-pagina';
+    src: url(fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'font-logo';
+    src: url(fonts/K2D/K2D-Medium.ttf);
+}
+
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'font-logo', sans-serif;
 }
 
 body {
@@ -21,23 +37,75 @@ body {
 }
 
 .logo {
-    height: 40px;
+    height: 35px;
     padding-right: 5px;
 }
 
 .logo-name {
+    font-size: 1.5rem;
     color: #f1a412;
+    font-family: 'font-logo', sans-serif;
 }
 
 .nav-list {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
     list-style: none;
 }
 
 .nav-item a {
     text-decoration: none;
     color: #78776B;
+    font-family: 'font-semibold', sans-serif;
+}
+
+.header-button {
+    padding: 8px 12px;
+    background-color: #f7b740;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.315);
+    font-size: 0.9rem;
+    font-family: 'font-semibold', sans-serif;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: #f1a412;
+    transition: 0.4s;
+}
+
+.responsive-menu {
+    display: none;
+}
+
+/********** MENU RESPONSIVO ***********/
+
+@media screen and (max-width: 710px) {
+
+    .responsive-menu {
+        display: block;
+    }
+
+    .menu-burguer {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .responsive-menu button {
+        background-color: transparent;
+        border: none;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .header-button {
+        display: none;
+    }
+
 }
