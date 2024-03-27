@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: 'bold';
+    src: url(fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
     font-family: 'font-pagina';
     src: url(fonts/Poppins/Poppins-Medium.ttf);
 }
@@ -29,6 +34,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 1.1rem 0px;
+    margin-bottom: 4rem;
 }
 
 .logo-content {
@@ -97,6 +103,62 @@ body {
 
 .responsive-menu {
     display: none;
+}
+
+/********** Section 1 ***********/
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1-content {
+    width: 450px;
+    margin-top: 2rem;
+}
+
+.section1-content h1 {
+    font-family: 'bold', sans-serif;
+    font-size: 3rem;
+    color: #252123;
+    margin-bottom: 1.5rem;
+}
+
+.h1-mark {
+    font-family: 'bold', sans-serif;
+    color: #f1a412;
+}
+
+.text {
+    font-family: 'font-pagina', sans-serif;
+    font-size: 15px;
+    color: #252123;
+    margin-bottom: 1.3rem;
+}
+
+.cardapio-contato {
+    display: flex;
+    gap: 1rem;
+}
+
+.cardapio-contato button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #f7b740;
+    font-family: 'font-pagina', sans-serif;
+    font-size: 14px;
+    color: #252123;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
+    cursor: pointer;
+}
+
+.cardapio-contato p {
+    font-size: 15px;
+    padding: 8px 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
 }
 
 /********** MENU RESPONSIVO ***********/
