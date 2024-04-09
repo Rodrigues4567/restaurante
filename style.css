@@ -209,6 +209,10 @@ body {
 
 @media screen and (max-width: 810px) {
 
+    .header {
+        gap: 4.5rem;
+    }
+
     .responsive-menu {
         display: block;
     }
