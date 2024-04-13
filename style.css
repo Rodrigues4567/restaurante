@@ -111,7 +111,7 @@ body {
 .section1 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 6.5rem;
+    margin-bottom: 6rem;
 }
 
 .section1-content {
@@ -198,6 +198,10 @@ body {
 
 /************ Section 2 *************/
 
+.section2 {
+    margin-bottom: 9rem;
+}
+
 .titulo-cardapio {
     text-align: center;
     margin-bottom: 2rem;
@@ -227,7 +231,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 340px;
-    padding: 14px 6px;
+    padding: 20px 6px;
     background-color: #FFFFFD;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
     border-radius: 1.8rem;
@@ -280,6 +284,68 @@ body {
 .pedir-btn:hover {
     background-color: #f1a412;
     transition: 0.4s;
+}
+
+/************ Section 3 *************/
+
+.section3-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.img-chef img {
+    height: 580px;
+}
+
+.section3-title h2 {
+    font-family: 'bold', sans-serif;
+    color: #f1a412;
+}
+
+.section3-title h1 {
+    font-family: 'bold', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.depoimento {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 600px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+    border-radius: 12px;
+}
+
+.nome-pessoa {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.depoimento-p {
+    margin-bottom: 4px;
+    font-size: 15px;
+    color: #252123;
+}
+
+.avaliacao-depoimento i {
+    color: #ebaf3f;
+}
+
+.depoimentos-btn {
+    padding: 8px 12px;
+    background-color: #f7b740;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.315);
+    font-size: 1rem;
+    font-family: 'font-semibold', sans-serif;
+    cursor: pointer;
 }
 
 /********** Notebook ***********/
